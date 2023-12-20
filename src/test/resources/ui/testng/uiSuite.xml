@@ -2,6 +2,9 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 
 <suite name="Cucusel example project UI Tests">
+    <listeners>
+        <listener class-name="com.brainhatchery.cucusel.utils.listeners.RetryListener"/>
+    </listeners>
     <parameter name="env.name" value="test"/>
     <test name="All UI tests">
         <classes>
