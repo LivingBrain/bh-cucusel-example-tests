@@ -5,10 +5,9 @@ import com.brainhatchery.cucusel.utils.webelements.enums.Locator;
 
 public class LoginPage {
 
-    private final WebElementLocator
-            login_userNameInput = new WebElementLocator(Locator.ID, "user-name"),
-            login_passwordInput = new WebElementLocator(Locator.ID, "password"),
-            login_loginButton = new WebElementLocator(Locator.ID, "login-button");
+    private final WebElementLocator login_userNameInput = new WebElementLocator(Locator.ID, "user-name");
+    private final WebElementLocator login_passwordInput = new WebElementLocator(Locator.ID, "password");
+    private final WebElementLocator login_loginButton = new WebElementLocator(Locator.ID, "login-button");
 
     public LoginPage setUserName(String username) {
         login_userNameInput.sendKeys(username);
