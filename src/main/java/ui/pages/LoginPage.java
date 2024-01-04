@@ -1,7 +1,7 @@
 package ui.pages;
 
-import com.brainhatchery.cucusel.utils.webelements.WebElementLocator;
-import com.brainhatchery.cucusel.utils.webelements.enums.Locator;
+import com.brainhatchery.cucusel.ui.webelements.WebElementLocator;
+import com.brainhatchery.cucusel.ui.webelements.enums.Locator;
 
 public class LoginPage {
 

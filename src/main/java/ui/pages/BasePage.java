@@ -1,7 +1,7 @@
 package ui.pages;
 
-import com.brainhatchery.cucusel.utils.configuration.CucuselConfig;
-import com.brainhatchery.cucusel.utils.driver.Driver;
+import com.brainhatchery.cucusel.configuration.CucuselConfig;
+import com.brainhatchery.cucusel.ui.driver.Driver;
 
 public class BasePage {
 
